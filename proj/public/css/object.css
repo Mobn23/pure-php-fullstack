@@ -1,0 +1,45 @@
+.container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #ffffff; /* Add a background color to the container */
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-exhibits {
+    max-width: 100%;
+    text-align: center;
+
+
+}
+
+.featured-exhibits img {
+    max-width: 100%;
+    height: auto;
+
+    align-items: center;
+    
+
+}
+
+.column {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.column-container {
+    display: flex;
+    flex-direction: column; /* Display items vertically in a column */
+    align-items: center; /* Horizontally center the content */
+}
+.column-container img {
+    max-width: 100%; /* Ensure the image width fits the container */
+    margin: auto;
+    border: 5px solid #000000; /* Add a black border to each image */
+    align-items: center;
+    justify-content: center;
+}
+

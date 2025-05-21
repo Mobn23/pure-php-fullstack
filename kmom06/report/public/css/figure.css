@@ -1,0 +1,30 @@
+/** figure.css */
+
+.figure {
+    margin: 0
+}
+
+.figure img {
+    max-width: 100%;
+}
+
+.figure figcaption {
+    caption-side: bottom;
+    font-style: italic;
+    padding-top: 1em
+}
+
+.figure.right {
+    float: right;
+    margin-left: 1em
+}
+
+.figure.left {
+    margin-left: 1em;
+    border-radius: 0%
+}
+
+/*.figure.center {
+    display: block;
+    text-align: center;
+}*/

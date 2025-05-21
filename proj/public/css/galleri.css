@@ -1,0 +1,54 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.thumbnail {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 5px solid #000000; /* Add a black border to each image */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.small-thumbnails img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 5px solid #000000; /* Add a black border to each image */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.gallery-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a0040; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.gallery-button:hover {
+    background-color: #00b5ec; /* Button background color on hover */
+    transform: scale(1.05);
+}
+
+.thumbnail:hover {
+    transform: scale(1.2); /* Enlarge the image on hover */
+}
+
+.gallery-image:hover {
+    border-color: #007BFF; /* Change the border color on hover */
+}

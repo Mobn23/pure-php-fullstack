@@ -1,0 +1,36 @@
+main .crazy {
+font-stretch: ultra-expanded;
+color: #118000;
+}
+
+main .crazy p {
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+color: #8e0000
+}
+
+main .crazy h2 {
+color: rgba(62, 0, 120, 0.455);
+}
+
+main .crazy {
+    position: relative;
+    font-size: 48px; /* Increase font size /
+    color: rgb(106, 81, 103);
+    text-transform: uppercase; / Convert text to uppercase */
+    animation: bounce 1s infinite
+
+}
+
+@keyframes 
+
+bounce {
+        0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }

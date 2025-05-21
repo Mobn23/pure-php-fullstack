@@ -1,0 +1,37 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table td.sunday {
+    background-color: #08e200;
+}
+.table td.Dsunday {
+    color: #ff0000;
+}
+
+  /* Style the form and other elements as needed */
+form {
+    margin-bottom: 20px;
+}
+
+code {
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}

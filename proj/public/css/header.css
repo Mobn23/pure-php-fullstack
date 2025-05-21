@@ -1,0 +1,94 @@
+/** header.css */
+
+/*
+ * Prepare variables.
+ */
+:root {
+    --light-color: #CFC;
+    --medium-color: rgba(255, 255, 255, 0.805);
+    --dark-color: rgb(255, 255, 255);
+    --my-color:#37ebff;
+}
+
+/*
+ * Set colors, size and prepare positioning.
+ */
+.header {
+    background-color: var(--dark-color);
+    border-bottom: 4px solid var(--dark-color);
+    position: relative;
+}
+
+/*
+ * Position and size the logo.
+ */
+.header .logo {
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.second-header {
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+/*
+ * Modify and position the title.
+ */
+.header .title {
+    color: var(--dark-color);
+    font-size: 36px;
+    text-shadow: 2px 2px 2px var(--medium-color);
+    max-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    top: 5px;
+    left: 0px;
+
+}
+
+
+/*
+ * Add background image.
+ */
+.header {
+    background-color: var(--my-color);
+    border-bottom: 4px solid var(--bright-color);
+    position: relative;
+    background-image: url("../img/mo.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+ * Fix colors when using background image.
+ */
+.header .title,
+.header .subtitle {
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    border-radius: 50%;
+    text-shadow: 5px 5px 10px rgba(0, 50, 4000, 5000);
+}
+
+.text-with-shadow {
+    font-size: 24px; /* Set the font size for your text */
+    color: #3498db; /* Set the text color */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+}
+
+.header .logo {
+    width: 150px; /* Set the width and height of your logo */
+    height: 150px;
+    background-color: #ffffff; /* Set the background color of your logo */
+    border-radius: 50%; /* Make it a circle (for demonstration purposes) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75); /* Add a shadow */
+}
+

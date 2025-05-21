@@ -1,0 +1,60 @@
+/** footer.css */
+
+/*
+ * Set colors and size.
+ */
+
+/*
+ * Style the links.
+ */
+.footer a {
+    color: #FFF;
+}
+
+.footer a:hover {
+    color: rgb(0, 19, 124);
+    text-decoration:wavy;
+}
+
+/*
+ * Style the content.
+ */
+
+.box h4{
+    color:white;
+}
+.box h4 {
+    max-width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.final {
+    max-width: 100%;
+    text-align: center;
+}
+
+/*
+ * Style the rows and columns.
+ */
+.footer .row {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer .row > .col1 {
+    width: 100%;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #03ddff, #0a0040);
+    color: #ffffff;
+    padding: 0 1em;
+}
+
+html {
+    background-color: #0a0040;
+}
+

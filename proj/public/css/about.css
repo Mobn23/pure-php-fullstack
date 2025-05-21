@@ -1,0 +1,13 @@
+.styled-link {
+    background-color: #03ddff; /* Background color for the link */
+    color: #fff; /* Text color for the link */
+    padding: 10px 20px; /* Padding around the link text */
+
+    text-decoration: none; /* Remove underline on the link */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.styled-link:hover {
+    background-color: #0056b3; /* Background color on hover */
+}

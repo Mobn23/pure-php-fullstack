@@ -1,0 +1,9 @@
+.byline {
+    background: linear-gradient(to bottom, #FFF, #00ccff);
+    overflow:auto
+}
+
+.byline p {
+    font-style: oblique;
+    font-size:small
+}

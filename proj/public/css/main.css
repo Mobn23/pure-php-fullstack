@@ -1,0 +1,65 @@
+/** main.css */
+
+/*
+ * Set colors and size.
+ */
+body {
+    background-color: #ffffff;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.main-content {
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack the exhibits vertically */
+    align-items: center; /* Center the exhibits horizontally */
+}
+
+.article {
+    max-width: 100%;
+    overflow: auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.article h1 {
+    font-size: 2em;
+    border-bottom: 4px double #ccc;
+    font-family: monospace;
+}
+
+.article .author {
+    max-width: 100%;
+    margin-top: -1em;
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
+}
+
+.main,
+.main .article {
+    min-height: 20em;
+    max-width: 100%;
+}
+
+.aside {
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
+    max-width: 100%;
+}
+
+.aside h4 {
+    border-bottom: 1px solid #ccc;
+    max-width: 100%;
+}
